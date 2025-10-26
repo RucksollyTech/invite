@@ -6,7 +6,7 @@ export default function Home() {
         <div className="md:py-[100px] py-12 md:px-14 px-4 bg-[#1F2124]">
             <CelebrationEffect />
             <div className="md:text-3xl text-md text-center font-extrabold text-white">
-                📮JUST IN📮 WE JUST SMASHED ANOTHER GRAND AUDIT GAME! JOIN OUR TELEGRAM CHANNEL NOW TO ENJOY MORE FREE GAMES! CLICK THE BUTTON BELOW NOW 👇
+                📮JUST IN📮 WE JUST SMASHED ANOTHER <span className="text-green-700">GRAND AUDIT GAME!</span> JOIN OUR TELEGRAM CHANNEL NOW TO ENJOY MORE FREE GAMES! CLICK THE BUTTON BELOW NOW 👇
             </div>
             <div className="flex items-center justify-center md:py-8 py-5">
                 <img className="rounded-lg" src="/Images/winnings.jpg" alt="Winnings" />
