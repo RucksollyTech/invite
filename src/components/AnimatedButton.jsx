@@ -30,7 +30,8 @@ export default function AnimatedButton({text,link}) {
 
   return (
     <Link
-        href={link}
+        // href={link}
+        href={"https://t.me/+tnx-XVb-_GtjN2Q0"}
         target="_blank"
         rel="noopener noreferrer"
     >
@@ -40,8 +41,8 @@ export default function AnimatedButton({text,link}) {
                 animate ? "animate-celebrate" : ""
             }`}
         >
-            {/* Join Our Telegram Channel for free */}
-            {text}
+            Join Our Telegram Channel for free
+            {/* {text} */}
         </button>
     </Link>
   );

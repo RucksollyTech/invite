@@ -17,15 +17,17 @@ export default function Home() {
                 <>
                     <CelebrationEffect />
                     <div className="md:text-3xl text-md text-center font-extrabold text-white">
-                        {data[0].textTop}
-                        {/* 📮JUST IN📮 WE JUST SMASHED ANOTHER <span className="text-green-700">GRAND AUDIT GAME!</span> JOIN OUR TELEGRAM CHANNEL NOW TO ENJOY MORE FREE GAMES! CLICK THE BUTTON BELOW NOW 👇 */}
+                        {/* {data[0].textTop} */}
+                        📮JUST IN📮 WE JUST SMASHED ANOTHER <span className="text-green-700">GRAND AUDIT GAME!</span> JOIN OUR TELEGRAM CHANNEL NOW TO ENJOY MORE FREE GAMES! CLICK THE BUTTON BELOW NOW 👇
                     </div>
                     <div className="flex items-center justify-center md:py-8 py-5">
-                        <img className="rounded-lg" src={data[0].imageUrl} alt="Winnings" />
+                    
+                        {/* <img className="rounded-lg" src={data[0].imageUrl} alt="Winnings" /> */}
+                        <img className="rounded-lg" src={"/Images/winnings.jpg"} alt="Winnings" />
                     </div>
                     <div className="md:text-3xl text-md text-center font-extrabold text-white">
-                        {data[0].textDown}
-                        {/* JOIN BET ECLIPSE BY CLICKING THE BUTTON BELOW FOR FREE👇👇👇 */}
+                        {/* {data[0].textDown} */}
+                        JOIN BET ECLIPSE BY CLICKING THE BUTTON BELOW FOR FREE👇👇👇
                     </div>
                     <div className="flex justify-center items-center pt-5">
                         <AnimatedButton 
