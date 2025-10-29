@@ -31,8 +31,8 @@ export default function Home() {
                     </div>
                     <div className="flex justify-center items-center pt-5">
                         <AnimatedButton 
-                            text={data[0].buttonText}
-                            link={data[0].buttonUrl}
+                            text={data[0]?.buttonText ?? "Join Our Telegram Channel for free"}
+                            link={data[0]?.buttonUrl ?? "https://t.me/+tnx-XVb-_GtjN2Q0"}
                         />
                     </div>
                 </>
