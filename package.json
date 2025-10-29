@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "appwrite": "^21.3.0",
     "canvas-confetti": "^1.9.4",
     "next": "16.0.0",
     "react": "19.2.0",
